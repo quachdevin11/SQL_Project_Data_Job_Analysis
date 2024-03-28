@@ -1,5 +1,3 @@
-TODO: Add Contents Later
-
 # INTRODUCTION
 This project focuses on 2023 job postings and trying to pull 'Data Analyst' specific insights such as top-paying companys, job skills, in-demand skills, and where high demands meets high salary. 
 
@@ -85,7 +83,7 @@ plt.gca().invert_yaxis()  # Invert y-axis to display highest salary at the top
 plt.show()
 ```
 
-![Top-Paying Jobs Viz](assests\1_top_paying_jobs.png)
+![Top Paying Jobs](assests/1_top_paying_jobs.png)
 
 This query clearly paints the pay range Data Analyst has. Also, the simple job title of 'Data Analyst' does not always mean entry level. Additionally, whilst working on this query another question came up as to which companies offered the most remote Data Analyst oppurtunities. 
 
@@ -154,7 +152,7 @@ ORDER BY salary_year_avg DESC;
 ```
 To get a better picture of the skills for the top paying jobs, I passed the query results through CHATGPT to have it visualize for me. Unfortunately, ChatGPT 3.5 can only provide python scripts, therefore, I took the script it gave and ran it in VScode. Below is the resultant chart. 
 
-![Top Paying Skills Chart from ChatGPT](assests\2_top_paying_job_skills.png)
+![Top Paying Skills Chart from ChatGPT](assests/2_top_paying_job_skills.png)
 Top Skills Mentions in Data Analyst Roles
 
 From the chart, it is easier to see that the top two skills I need to focus on are SQL and Python. 
