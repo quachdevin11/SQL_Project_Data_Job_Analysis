@@ -2,7 +2,6 @@
 Question: What are the most in-demand skills for Remote Data Analysts? 
 */
 
-
 /*
 METHOD 1
 

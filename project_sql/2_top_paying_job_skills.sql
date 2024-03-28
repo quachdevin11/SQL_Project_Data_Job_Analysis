@@ -111,8 +111,7 @@ R: 6
 Pandas: 5
 Excel: 4
 
-VISUALIZE THE DATA USING PYTHON: 
-
+VISUALIZE THE DATA USING PYTHON: (script to visualize data that was given from CHATGPT)
 
 import matplotlib.pyplot as plt
 
@@ -128,8 +127,5 @@ plt.ylabel('Skills')
 plt.title('Top Skills Mentioned in Data Analyst Roles')
 plt.gca().invert_yaxis()  # Invert y-axis to display the most mentioned skill on top
 plt.show()
-
-
-
 */
 
